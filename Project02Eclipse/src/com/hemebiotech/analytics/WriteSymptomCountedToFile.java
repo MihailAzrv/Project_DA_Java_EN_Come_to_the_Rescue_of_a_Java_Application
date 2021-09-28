@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class WriteSymptomCountedToFile {
+public class WriteSymptomCountedToFile implements ISymptomWriter {
 	
 	private String outputData;
 	
