@@ -12,10 +12,12 @@ public class CountSymptomFromList implements ISymptomTreatement {
 		for (String symptom : listNotCounted) {
 			if (!count.containsKey(symptom)) {
 				count.put(symptom, 1);
-			} else if (count.containsKey(symptom)) {
+			} 
+			else if (count.containsKey(symptom)) {
 				count.put(symptom, count.get(symptom) +1);
 			}
 		}
+		
 		return count;
 	}
 	
