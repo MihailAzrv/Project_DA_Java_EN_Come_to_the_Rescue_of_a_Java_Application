@@ -25,7 +25,7 @@ public class Analyse {
 	}
 	
 	public List<String> getSymptoms() {
-		return this.reader.GetSymptoms();
+		return this.reader.getSymptoms();
 	}
 	
 	public TreeMap<String, Integer> countSymptoms (List<String> listNotCounted) {
